@@ -1,18 +1,18 @@
 <!-- Import components -->
 <script>
 import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue'
 
 export default {
     components: {
         AppTitle,
+        AppHero,
     }
 }
-
 </script>
-<!-- // Import components -->
 
-<!-- Final page -->
+
 <template>
-    <AppTitle></AppTitle>
+    <AppTitle> </AppTitle>
+    <AppHero> </AppHero>
 </template>
-<!-- // Final page -->
